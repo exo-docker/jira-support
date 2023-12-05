@@ -1,9 +1,9 @@
-FROM azul/zulu-openjdk-debian:latest
+FROM azul/zulu-openjdk-debian:7-latest
 MAINTAINER Adrian Haasler García <dev@adrianhaasler.com>
 
 # Configuration
 ENV JIRA_HOME /data/jira
-ENV JIRA_VERSION 6.4
+ENV JIRA_VERSION 5.2.11
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
