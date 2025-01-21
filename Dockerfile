@@ -1,5 +1,5 @@
-FROM azul/zulu-openjdk-debian:latest
-MAINTAINER Adrian Haasler García <dev@adrianhaasler.com>
+FROM azul/zulu-openjdk-debian:8-latest
+LABEL maintainer="Adrian Haasler García <dev@adrianhaasler.com>"
 
 # Configuration
 ENV JIRA_HOME /data/jira
